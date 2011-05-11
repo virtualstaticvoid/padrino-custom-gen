@@ -22,4 +22,8 @@ end
 Padrino.after_load do
 end
 
+# include additional generators
+Padrino::Generators.load_paths << Dir[File.join(Padrino.root('generators'), '*_generator.rb')]
+
 Padrino.load!
+
