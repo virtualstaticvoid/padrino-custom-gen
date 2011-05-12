@@ -1,6 +1,3 @@
-require 'padrino-gen/generators/actions'
-require 'padrino-gen/generators/components/actions'
-
 class TestGenerator < Thor::Group
   
   puts ">> loaded #{__FILE__}"
